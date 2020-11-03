@@ -1,6 +1,6 @@
 Linked List:
 
-10/31/2020
+11/03/2020
 Tutorial
 Even Odd Partition
 Overlapping Lists
