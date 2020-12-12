@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.23" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="4.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="Moq" Version="4.8.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FunctionTestHelper\FunctionTestHelper.csproj" />
+    <ProjectReference Include="..\INFO_TRACK_DATA_MODELS\INFO_TRACK_DATA_MODELS.csproj" />
+    <ProjectReference Include="..\PAGE_RANK_FUNCTION_APP\PAGE_RANK_FUNCTION_APP.csproj" />
+  </ItemGroup>
+
+</Project>

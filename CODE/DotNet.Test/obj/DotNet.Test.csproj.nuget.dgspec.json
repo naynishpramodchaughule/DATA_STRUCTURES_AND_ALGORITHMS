@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CODE\\DotNet.Test\\DotNet.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\CODE\\DotNet.Test\\DotNet.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CODE\\DotNet.Test\\DotNet.Test.csproj",
+        "projectName": "DotNet.Test",
+        "projectPath": "D:\\CODE\\DotNet.Test\\DotNet.Test.csproj",
+        "packagesPath": "C:\\Users\\nchaughule\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\DotNet.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nchaughule\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/imcdi-va/AppsAndCloud/_packaging/IMC_DI_Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\CODE\\FunctionTestHelper\\FunctionTestHelper.csproj": {
+                "projectPath": "D:\\CODE\\FunctionTestHelper\\FunctionTestHelper.csproj"
+              },
+              "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj": {
+                "projectPath": "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj"
+              },
+              "D:\\CODE\\PAGE_RANK_FUNCTION_APP\\PAGE_RANK_FUNCTION_APP.csproj": {
+                "projectPath": "D:\\CODE\\PAGE_RANK_FUNCTION_APP\\PAGE_RANK_FUNCTION_APP.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.23, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CODE\\FunctionTestHelper\\FunctionTestHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CODE\\FunctionTestHelper\\FunctionTestHelper.csproj",
+        "projectName": "FunctionTestHelper",
+        "projectPath": "D:\\CODE\\FunctionTestHelper\\FunctionTestHelper.csproj",
+        "packagesPath": "C:\\Users\\nchaughule\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\FunctionTestHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nchaughule\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/imcdi-va/AppsAndCloud/_packaging/IMC_DI_Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.0-beta3, )"
+            },
+            "Microsoft.Azure.WebJobs.Core": {
+              "target": "Package",
+              "version": "[3.0.0-beta3, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions": {
+              "target": "Package",
+              "version": "[3.0.0-beta3, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0-beta3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj",
+        "projectName": "INFO_TRACK_DATA_MODELS",
+        "projectPath": "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\CODE\\PAGE_RANK_FUNCTION_APP\\PAGE_RANK_FUNCTION_APP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CODE\\PAGE_RANK_FUNCTION_APP\\PAGE_RANK_FUNCTION_APP.csproj",
+        "projectName": "PAGE_RANK_FUNCTION_APP",
+        "projectPath": "D:\\CODE\\PAGE_RANK_FUNCTION_APP\\PAGE_RANK_FUNCTION_APP.csproj",
+        "packagesPath": "C:\\Users\\nchaughule\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\PAGE_RANK_FUNCTION_APP\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nchaughule\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/imcdi-va/AppsAndCloud/_packaging/IMC_DI_Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj": {
+                "projectPath": "D:\\CODE\\INFO_TRACK_DATA_MODELS\\INFO_TRACK_DATA_MODELS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

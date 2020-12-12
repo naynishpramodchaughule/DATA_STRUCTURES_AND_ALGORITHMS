@@ -1,0 +1,9 @@
+D:\CODE\FunctionTestHelper\bin\Debug\netcoreapp3.1\FunctionTestHelper.deps.json
+D:\CODE\FunctionTestHelper\bin\Debug\netcoreapp3.1\FunctionTestHelper.dll
+D:\CODE\FunctionTestHelper\bin\Debug\netcoreapp3.1\FunctionTestHelper.pdb
+D:\CODE\FunctionTestHelper\obj\Debug\netcoreapp3.1\FunctionTestHelper.csprojAssemblyReference.cache
+D:\CODE\FunctionTestHelper\obj\Debug\netcoreapp3.1\FunctionTestHelper.AssemblyInfoInputs.cache
+D:\CODE\FunctionTestHelper\obj\Debug\netcoreapp3.1\FunctionTestHelper.AssemblyInfo.cs
+D:\CODE\FunctionTestHelper\obj\Debug\netcoreapp3.1\FunctionTestHelper.csproj.CoreCompileInputs.cache
+D:\CODE\FunctionTestHelper\obj\Debug\netcoreapp3.1\FunctionTestHelper.dll
+D:\CODE\FunctionTestHelper\obj\Debug\netcoreapp3.1\FunctionTestHelper.pdb

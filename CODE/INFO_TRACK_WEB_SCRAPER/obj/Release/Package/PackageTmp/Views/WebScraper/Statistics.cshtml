@@ -1,0 +1,73 @@
+﻿@model INFO_TRACK_WEB_SCRAPER.ViewModels.WebScraperViewModel
+
+@using INFO_TRACK_DATA_MODELS;
+
+@{
+    ViewBag.Title = "Web Scraper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles {
+
+}
+
+<h2>Web Scraper Statistics</h2>
+
+<div class="container-fluid" style="padding-top: 2%;">
+    <div class="row">
+        <div class="col">
+            @using (Html.BeginForm("Statistics", "WebScraper", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label for="Keywords">Keywords</label>
+                    @Html.TextBoxFor(model => model.Keywords, new { @class = "form-control", placeholder = "Enter search keywords" })
+                    @Html.ValidationMessageFor(model => model.Keywords, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="DomainUrl">Domain Url</label>
+                    @Html.TextBoxFor(model => model.DomainUrl, new { @class = "form-control", @Value = "https://www.infotrack.com", placeholder = "Enter your complete domain url i.e. https://www.infotrack.com" })
+                    @Html.ValidationMessageFor(model => model.DomainUrl, "", new { @class = "text-danger" })
+                </div>
+
+                <button type="submit" class="btn btn-primary">Search</button>
+            }
+        </div>
+    </div>
+    <div class="row mtop-5">
+        <div class="col">
+
+            @{
+                if (Model.ListOfScraperQueries.Count > 0)
+                {
+                    <p class="lead">
+                        Recent search history: @Model.ListOfScraperQueries.Count record(s)
+                    </p>
+                }
+            }
+
+            @foreach (var item in Model.ListOfScraperQueries.OrderByDescending(X => X.RecordTimestamp))
+            {
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        Keywords: @item.Keywords <br />
+                        Domain Url: @item.DomainUrl
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Score: @item.Score</li>
+                            <li class="list-group-item">Search Result: @item.SearchResult</li>
+                            <li class="list-group-item">Timestamp: @item.RecordTimestamp</li>
+                        </ul>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
